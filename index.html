@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>test company</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/470d01c15a.js" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container w-container">
+            <h1 class="site">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="test-company">
+                </a>
+            </h1>
+            <button class="navbtn" onClick="document.querySelector('html').classList.toggle('open')">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-x"></i>
+                <span class="sr-only">MENU</span>
+            </button>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="#">サービス案内</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        
+    </section>
+
+    <section class="imgtext">
+        <div class="imgtext-container w-container">
+            <div class="text">
+                <h2 class="heading-decoration">管理用アプリ</h2>
+                <p>アプリ名</p>
+                <p>アプリの紹介文</p>
+            </div>
+            <figure class="img">
+                <img src="img/software.jpg" alt="" width="1600" height="1260">
+            </figure>
+        </div>
+    </section>
+
+    <section class="imgtext">
+        <div class="imgtext-container reverse w-container">
+            <div class="text">
+                <h2 class="heading-decoration">屋外用端末</h2>
+                <p>屋外で記録</p>
+                <p>端末の紹介文</p>
+            </div>
+            <figure class="img">
+                <img src="img/tablet.jpg" alt="" width="1600" height="1260">
+            </figure>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="w-container">
+            <h2 class="heading">NEWS <span>最新情報</span></h2>
+            <div class="posts-container">
+                <article class="post">
+                    <a href="#">
+                        <figure>
+                            <img src="" alt="イメージ" width="1000" height="750">
+                        </figure>
+                        <h3>製品使用事例</h3>
+                        <p>製品を使用しているお客様について紹介</p>
+                    </a>
+                </article>
+
+                <article class="post">
+                    <a href="#">
+                        <figure>
+                            <img src="" alt="イメージ" width="1000" height="750">
+                        </figure>
+                        <h3>業界ニュース</h3>
+                        <p>業界の動向を紹介</p>
+                    </a>
+                </article>
+
+                <article class="post">
+                    <a href="#">
+                        <figure>
+                            <img src="" alt="イメージ" width="1000" height="750">
+                        </figure>
+                        <h3>情報セキュリティの取り組み</h3>
+                        <p>情報セキュリティの取り組みを紹介</p>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container w-container">
+            <div class="footer-site">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="test-company">
+                </a>
+            </div>
+
+            <ul class="footer-sns">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span class="sr-only">x-twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span class="sr-only">facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span class="sr-only">instagram</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer-menu">
+                <li><a href="#">会社概要</a></li>
+                <li><a href="#">特定商取引法</a></li>
+                <li><a href="#">個人情報の取り扱い</a></li>
+                <li><a href="#">サービス案内</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                @ test-company
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
