@@ -250,6 +250,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px 25px;
+    padding-top: 15px;
 }
 
 @media (min-width: 768px) {
